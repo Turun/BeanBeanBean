@@ -24,6 +24,9 @@ def run():
         print("finished")
 
 def startBrowser():
+    """
+    modify this part so that it fits your preferred browser (or simply use firefox)
+    """
     global browser, wait
     print('starting browser...')
     firefox_capabilities = DesiredCapabilities.FIREFOX
