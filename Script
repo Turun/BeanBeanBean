@@ -28,7 +28,7 @@ def startBrowser():
     print('starting browser...')
     firefox_capabilities = DesiredCapabilities.FIREFOX
     firefox_capabilities['marionette'] = True
-    geckoPath = r'C:\Users\Julian\programming\python\selenium\geckodriver.exe' 
+    geckoPath = r'C:\path\to\driver.exe' 
     browser = webdriver.Firefox(capabilities=firefox_capabilities, executable_path=geckoPath)
     wait = WebDriverWait(browser, 10)
     print('browser started')
